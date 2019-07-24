@@ -3,11 +3,11 @@ title: RPG角色生成器
 date: 2019-04-30 19:59:00
 tags: [java,practice]
 ---
-<!-- more -->
- 版权声明：wangchong https://blog.csdn.net/wfcn_zyq/article/details/89390244   
   **需求**  
  **1.功能描述**  
  几乎所有的RPG游戏（一种源自《龙与地下城》的游戏类型）在进入游戏时都会让用户自己来创建自己喜欢的角色。本次上机要求编写一个简化的创建游戏角色的程序。
+
+<!-- more -->
 
  **2.游戏角色应有的属性**  
  本题目要求的游戏角色应有以下属性：名字、性别、种族、职业、力量、敏捷、体力、智力、智慧、生命值和魔法值。  
@@ -40,7 +40,7 @@ tags: [java,practice]
  三、程序实现  
  程序主要实现
 
- 
+
 ```java
 /**
  * 对用户的输入做检查,确保只有输入0或1才能进行下一步
@@ -83,7 +83,7 @@ private static int[] setOther(String op)
  **完整实现**  
  **Character类**
 
- 
+
 ```java
 package www.homework.EmbarkationFour;
 
@@ -194,7 +194,7 @@ public class Character {
 ```
  **RPG类**
 
- 
+
 ```java
 package www.homework.EmbarkationFour;
 
@@ -520,7 +520,7 @@ public class RPG {
  四、调试、测试及运行结果  
  4.1调试截图
 
- 
+
 ```java
 Character类下的各个属性对应的部分
 private String name;//名字
@@ -593,4 +593,3 @@ private int magic;//魔法值
  总体来说这次练习相对简单。
 
    
-  

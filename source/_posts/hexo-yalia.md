@@ -42,6 +42,8 @@ cnpm install -g hexo-cli
 npm install -g hexo-cli
 ```
 
+##### 执行完成后，输入以下命令，然后通过访问:[http://localhost:4000](http://localhost:4000/)
+
 ##### `hexo -v`
 
 查看hexo版本
@@ -60,9 +62,7 @@ hexo init
 ###### 启动命令(预览)
 
 ```
-hexo s
-hexo start
-hexo server
+hexo s(hexo server)
 ```
 这一步下来就可以看到自己博客地址了，输入到浏览器就可以查看预生成的博客
 ###### 新建一篇文章
@@ -82,6 +82,9 @@ hexo g
 g(general)
 ```
 然后新建的博客就被归档
+
+- 然后通过访问:[http://localhost:4000](http://localhost:4000/)，来访问，一个本地博客就可以看到了
+
 ##### 将博客部署到远端(GitHub)
 ###### 打开GitHub新建一个仓库
 仓库命名必须是
@@ -132,6 +135,7 @@ yourusername.github.io
 即可访问你的博客
 ==如果此时出现网页访问404问题==
 是因为你新建的仓库名不是你的github账号的用户名
+
 ##### 解决方法
 - 一种是修改github的username名称和你新建的存储库.github前的名称相同
 - 一种是重新建立一个 你的github账号username.github.io
