@@ -8,7 +8,11 @@ tags: [集合,algorithms]
 
 - 先看原问题
 
- {% 集合的remove方法引起的数组越界问题 木棒拼图.jpg This is an examp image%}
+![题目](https://epochong-1259598883.cos.ap-chengdu.myqcloud.com/mubang.jpg )
+
+```
+ {% asset_img 木棒拼图.jpg 题目%}
+```
 
 - 问题解析
 

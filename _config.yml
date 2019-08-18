@@ -75,9 +75,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: yilia
 #theme: next
-auto_excerpt:
-  enable: true
-  length: 150
+#auto_excerpt:
+#enable: true
+#lines: 3
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
